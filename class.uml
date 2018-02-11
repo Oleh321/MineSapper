@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="88.5" y="1469.0">code.ComplexityManager.FileWorker</node>
+    <node x="656.5" y="146.0">code.Cell</node>
+    <node x="486.5" y="257.0">code.enums.GameStatus</node>
+    <node x="403.3229166666667" y="1080.0">code.Controller</node>
+    <node x="57.979166666666686" y="613.0">code.Complexity</node>
+    <node x="779.0" y="0.0">code.enums.CellStatus</node>
+    <node x="291.042528735632" y="430.9160919540231">code.Main</node>
+    <node x="0.0" y="1156.5">code.ComplexityManager</node>
+    <node x="471.25" y="536.0">code.GameField</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="code.GameField" target="code.enums.GameStatus">
+      <point x="-184.0" y="-247.0" />
+      <point x="563.25" y="511.0" />
+      <point x="561.5" y="511.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="code.Cell" target="code.enums.CellStatus">
+      <point x="0.0" y="-170.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="code.Controller" target="code.Complexity">
+      <point x="-140.66666666666663" y="-169.5" />
+      <point x="473.65625000000006" y="1055.0" />
+      <point x="378.81250000000006" y="1055.0" />
+      <point x="128.33333333333337" y="170.0" />
+    </edge>
+    <edge source="code.ComplexityManager.FileWorker" target="code.ComplexityManager">
+      <point x="-56.0" y="-60.0" />
+      <point x="116.5" y="1444.0" />
+      <point x="57.5" y="1444.0" />
+      <point x="-115.0" y="93.0" />
+    </edge>
+    <edge source="code.Controller" target="code.GameField">
+      <point x="0.0" y="-169.5" />
+      <point x="614.3229166666666" y="1055.0" />
+      <point x="609.25" y="1055.0" />
+      <point x="-138.0" y="247.0" />
+    </edge>
+    <edge source="code.ComplexityManager" target="code.ComplexityManager.FileWorker">
+      <point x="0.0" y="93.0" />
+      <point x="0.0" y="-60.0" />
+    </edge>
+    <edge source="code.GameField" target="code.Cell">
+      <point x="0.0" y="-247.0" />
+      <point x="747.25" y="511.0" />
+      <point x="749.0" y="511.0" />
+      <point x="-92.5" y="170.0" />
+    </edge>
+    <edge source="code.ComplexityManager" target="code.Complexity">
+      <point x="-86.25" y="-93.0" />
+      <point x="86.25" y="1055.0" />
+      <point x="122.14583333333331" y="1055.0" />
+      <point x="-128.33333333333337" y="170.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5407085146053449" x="624.7609195402301" y="606.8896551724139" />
+  <SelectedNodes>
+    <node>code.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
